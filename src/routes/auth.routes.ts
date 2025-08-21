@@ -8,7 +8,6 @@ import { hashPassword, verifyPassword, signToken } from "../auth";
 
 const router = Router();
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
-
 // ===== Schemas =====
 const registerSchema = z.object({
   body: z.object({

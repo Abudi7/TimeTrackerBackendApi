@@ -17,3 +17,4 @@ export const pool = mysql.createPool({
   // إن كنت تستخدم مزوّدًا خارجيًا يفرض SSL (اختياري):
   // ssl: { rejectUnauthorized: true },
 });
+
